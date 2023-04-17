@@ -94,7 +94,7 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
-  [languages.zh-cn]
+  [languages.zh]
     languageName = "中文简体"
     title = "终端"
     subtitle = "Hugo 的简单复古主题"
@@ -111,16 +111,16 @@ paginate = 5
     minuteReadingTime = "min read"
     words = "words"
 
-    [languages.zh-cn.params.logo]
+    [languages.zh.params.logo]
       logoText = "Terminal"
       logoHomeLink = "/"
 
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
         identifier = "关于"
         name = "关于"
         url = "/about"
-      [[languages.zh-cn.menu.main]]
+      [[languages.zh.menu.main]]
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
