@@ -94,6 +94,36 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+  [languages.zh-cn]
+    languageName = "中文简体"
+    title = "终端"
+    subtitle = "Hugo 的简单复古主题"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "展示更多"
+    readMore = "阅读更多"
+    readOtherPosts = "阅读其他文章"
+    newerPosts = "最近更新"
+    olderPosts = "之前更新"
+    missingContentMessage = "页面丢失..."
+    missingBackButtonLabel = "返回主页"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.zh-cn.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
+
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        identifier = "关于"
+        name = "关于"
+        url = "/about"
+      [[languages.zh-cn.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
