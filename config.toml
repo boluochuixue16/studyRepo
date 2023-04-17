@@ -1,6 +1,6 @@
 baseurl = "/"
 title="Stack Engineer"
-languageCode = "en-us"
+languageCode = "zh-cn"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
@@ -21,7 +21,7 @@ paginate = 5
   showLanguageSelector = true
 
   # set theme to full screen width
-  fullWidthTheme = true
+  fullWidthTheme = false
 
   # center theme with default width
   centerTheme = true
