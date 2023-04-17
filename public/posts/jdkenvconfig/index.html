@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>JDK环境变量配置 :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="JDK环境变量配置 JDK环境变量是Java开发环境中一个非常关键的部分，需要在正确配置后才能正常运行Java程序。下面是JDK环境变量配置的步骤：
+第一步：下载JDK 在配置JDK环境变量之前，首先需要下载JDK。可以在Oracle官网上找到最新的JDK版本，或者通过其他安装包获取JDK。在下载JDK后，按照默认安装路径完成安装。
+第二步：查找JDK安装路径 JDK的安装路径一般为C:\Program Files\Java\jdk1.x.x_xx（Windows系统下），其中x代表JDK的版本。在配置环境变量之前，需要先确认JDK的安装路径。
+第三步：设置JAVA_HOME环境变量 为了让系统知道JDK的安装路径，需要设置JAVA_HOME环境变量，这个环境变量指向JDK的安装路径。设置步骤如下：
+在桌面上右键单击计算机，选择“属性”。 点击高级系统设置，选择“环境变量”。 在环境变量的系统变量中找到“新建”按钮，设置变量名为JAVA_HOME，变量值为JDK的安装路径（例如C:\Program Files\Java\jdk1.x.x_xx）。 第四步：修改PATH环境变量 在JDK安装路径下，有bin目录，它包含了一些JDK工具。PATH环境变量包含了操作系统用于查找可执行文件的路径，需要将JDK的bin目录添加到PATH环境变量中。设置步骤如下：
+在环境变量的系统变量中找到PATH变量，双击进行修改。 在PATH变量的值的末尾添加“;JDK安装路径\bin”（例如：；C:\Program Files\Java\jdk1.x.x_xx\bin）。 第五步：测试环境变量配置是否成功 成功配置完JDK环境变量后，可以测试是否配置成功：
+打开命令提示符，输入“java -version”命令，查看JDK版本信息是否正确。如果系统能够正确输出JDK版本信息，则表示JDK环境变量配置成功。 到此为止，您已经成功配置了JDK环境变量，可以运行Java程序了。" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/jdkenvconfig/" />
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="/img/theme-colors/blue.png">
+  <link rel="apple-touch-icon" href="/img/theme-colors/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="JDK环境变量配置">
+<meta property="og:description" content="JDK环境变量配置 JDK环境变量是Java开发环境中一个非常关键的部分，需要在正确配置后才能正常运行Java程序。下面是JDK环境变量配置的步骤：
+第一步：下载JDK 在配置JDK环境变量之前，首先需要下载JDK。可以在Oracle官网上找到最新的JDK版本，或者通过其他安装包获取JDK。在下载JDK后，按照默认安装路径完成安装。
+第二步：查找JDK安装路径 JDK的安装路径一般为C:\Program Files\Java\jdk1.x.x_xx（Windows系统下），其中x代表JDK的版本。在配置环境变量之前，需要先确认JDK的安装路径。
+第三步：设置JAVA_HOME环境变量 为了让系统知道JDK的安装路径，需要设置JAVA_HOME环境变量，这个环境变量指向JDK的安装路径。设置步骤如下：
+在桌面上右键单击计算机，选择“属性”。 点击高级系统设置，选择“环境变量”。 在环境变量的系统变量中找到“新建”按钮，设置变量名为JAVA_HOME，变量值为JDK的安装路径（例如C:\Program Files\Java\jdk1.x.x_xx）。 第四步：修改PATH环境变量 在JDK安装路径下，有bin目录，它包含了一些JDK工具。PATH环境变量包含了操作系统用于查找可执行文件的路径，需要将JDK的bin目录添加到PATH环境变量中。设置步骤如下：
+在环境变量的系统变量中找到PATH变量，双击进行修改。 在PATH变量的值的末尾添加“;JDK安装路径\bin”（例如：；C:\Program Files\Java\jdk1.x.x_xx\bin）。 第五步：测试环境变量配置是否成功 成功配置完JDK环境变量后，可以测试是否配置成功：
+打开命令提示符，输入“java -version”命令，查看JDK版本信息是否正确。如果系统能够正确输出JDK版本信息，则表示JDK环境变量配置成功。 到此为止，您已经成功配置了JDK环境变量，可以运行Java程序了。" />
+<meta property="og:url" content="/posts/jdkenvconfig/" />
+<meta property="og:site_name" content="Terminal" />
+
+  
+    <meta property="og:image" content="/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-04-17 11:38:54 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+        <hr />
+        
+          <li>
+            <a href="/">English</a>
+          </li>
+        
+          <li>
+            <a href="/zh/">中文简体</a>
+          </li>
+        
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+      <ul class="menu menu--desktop menu--language-selector">
+  <li class="menu__trigger">English&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        <li><a href="/">English</a></li>
+      
+        <li><a href="/zh/">中文简体</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/jdkenvconfig/">JDK环境变量配置</a>
+  </h1>
+  <div class="post-meta">
+    
+      <time class="post-date">
+        2023-04-17 ::
+        
+      </time>
+    
+    
+    
+  </div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="jdk环境变量配置">JDK环境变量配置<a href="#jdk环境变量配置" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>JDK环境变量是Java开发环境中一个非常关键的部分，需要在正确配置后才能正常运行Java程序。下面是JDK环境变量配置的步骤：</p>
+<h2 id="第一步下载jdk">第一步：下载JDK<a href="#第一步下载jdk" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>在配置JDK环境变量之前，首先需要下载JDK。可以在Oracle官网上找到最新的JDK版本，或者通过其他安装包获取JDK。在下载JDK后，按照默认安装路径完成安装。</p>
+<h2 id="第二步查找jdk安装路径">第二步：查找JDK安装路径<a href="#第二步查找jdk安装路径" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>JDK的安装路径一般为C:\Program Files\Java\jdk1.x.x_xx（Windows系统下），其中x代表JDK的版本。在配置环境变量之前，需要先确认JDK的安装路径。</p>
+<h2 id="第三步设置java_home环境变量">第三步：设置JAVA_HOME环境变量<a href="#第三步设置java_home环境变量" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>为了让系统知道JDK的安装路径，需要设置JAVA_HOME环境变量，这个环境变量指向JDK的安装路径。设置步骤如下：</p>
+<ol>
+<li>在桌面上右键单击计算机，选择“属性”。</li>
+<li>点击高级系统设置，选择“环境变量”。</li>
+<li>在环境变量的系统变量中找到“新建”按钮，设置变量名为JAVA_HOME，变量值为JDK的安装路径（例如C:\Program Files\Java\jdk1.x.x_xx）。</li>
+</ol>
+<h2 id="第四步修改path环境变量">第四步：修改PATH环境变量<a href="#第四步修改path环境变量" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>在JDK安装路径下，有bin目录，它包含了一些JDK工具。PATH环境变量包含了操作系统用于查找可执行文件的路径，需要将JDK的bin目录添加到PATH环境变量中。设置步骤如下：</p>
+<ol>
+<li>在环境变量的系统变量中找到PATH变量，双击进行修改。</li>
+<li>在PATH变量的值的末尾添加“;JDK安装路径\bin”（例如：；C:\Program Files\Java\jdk1.x.x_xx\bin）。</li>
+</ol>
+<h2 id="第五步测试环境变量配置是否成功">第五步：测试环境变量配置是否成功<a href="#第五步测试环境变量配置是否成功" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>成功配置完JDK环境变量后，可以测试是否配置成功：</p>
+<ol>
+<li>打开命令提示符，输入“java -version”命令，查看JDK版本信息是否正确。如果系统能够正确输出JDK版本信息，则表示JDK环境变量配置成功。</li>
+</ol>
+<p>到此为止，您已经成功配置了JDK环境变量，可以运行Java程序了。</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 17 Apr 2023 11:38:54 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JDK环境变量配置</title>
+      <link>/posts/jdkenvconfig/</link>
+      <pubDate>Mon, 17 Apr 2023 11:38:54 +0000</pubDate>
+      
+      <guid>/posts/jdkenvconfig/</guid>
+      <description>JDK环境变量配置 JDK环境变量是Java开发环境中一个非常关键的部分，需要在正确配置后才能正常运行Java程序。下面是JDK环境变量配置的步骤：
+第一步：下载JDK 在配置JDK环境变量之前，首先需要下载JDK。可以在Oracle官网上找到最新的JDK版本，或者通过其他安装包获取JDK。在下载JDK后，按照默认安装路径完成安装。
+第二步：查找JDK安装路径 JDK的安装路径一般为C:\Program Files\Java\jdk1.x.x_xx（Windows系统下），其中x代表JDK的版本。在配置环境变量之前，需要先确认JDK的安装路径。
+第三步：设置JAVA_HOME环境变量 为了让系统知道JDK的安装路径，需要设置JAVA_HOME环境变量，这个环境变量指向JDK的安装路径。设置步骤如下：
+在桌面上右键单击计算机，选择“属性”。 点击高级系统设置，选择“环境变量”。 在环境变量的系统变量中找到“新建”按钮，设置变量名为JAVA_HOME，变量值为JDK的安装路径（例如C:\Program Files\Java\jdk1.x.x_xx）。 第四步：修改PATH环境变量 在JDK安装路径下，有bin目录，它包含了一些JDK工具。PATH环境变量包含了操作系统用于查找可执行文件的路径，需要将JDK的bin目录添加到PATH环境变量中。设置步骤如下：
+在环境变量的系统变量中找到PATH变量，双击进行修改。 在PATH变量的值的末尾添加“;JDK安装路径\bin”（例如：；C:\Program Files\Java\jdk1.x.x_xx\bin）。 第五步：测试环境变量配置是否成功 成功配置完JDK环境变量后，可以测试是否配置成功：
+打开命令提示符，输入“java -version”命令，查看JDK版本信息是否正确。如果系统能够正确输出JDK版本信息，则表示JDK环境变量配置成功。 到此为止，您已经成功配置了JDK环境变量，可以运行Java程序了。</description>
+      <content>&lt;h1 id=&#34;jdk环境变量配置&#34;&gt;JDK环境变量配置&lt;/h1&gt;
+&lt;p&gt;JDK环境变量是Java开发环境中一个非常关键的部分，需要在正确配置后才能正常运行Java程序。下面是JDK环境变量配置的步骤：&lt;/p&gt;
+&lt;h2 id=&#34;第一步下载jdk&#34;&gt;第一步：下载JDK&lt;/h2&gt;
+&lt;p&gt;在配置JDK环境变量之前，首先需要下载JDK。可以在Oracle官网上找到最新的JDK版本，或者通过其他安装包获取JDK。在下载JDK后，按照默认安装路径完成安装。&lt;/p&gt;
+&lt;h2 id=&#34;第二步查找jdk安装路径&#34;&gt;第二步：查找JDK安装路径&lt;/h2&gt;
+&lt;p&gt;JDK的安装路径一般为C:\Program Files\Java\jdk1.x.x_xx（Windows系统下），其中x代表JDK的版本。在配置环境变量之前，需要先确认JDK的安装路径。&lt;/p&gt;
+&lt;h2 id=&#34;第三步设置java_home环境变量&#34;&gt;第三步：设置JAVA_HOME环境变量&lt;/h2&gt;
+&lt;p&gt;为了让系统知道JDK的安装路径，需要设置JAVA_HOME环境变量，这个环境变量指向JDK的安装路径。设置步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在桌面上右键单击计算机，选择“属性”。&lt;/li&gt;
+&lt;li&gt;点击高级系统设置，选择“环境变量”。&lt;/li&gt;
+&lt;li&gt;在环境变量的系统变量中找到“新建”按钮，设置变量名为JAVA_HOME，变量值为JDK的安装路径（例如C:\Program Files\Java\jdk1.x.x_xx）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第四步修改path环境变量&#34;&gt;第四步：修改PATH环境变量&lt;/h2&gt;
+&lt;p&gt;在JDK安装路径下，有bin目录，它包含了一些JDK工具。PATH环境变量包含了操作系统用于查找可执行文件的路径，需要将JDK的bin目录添加到PATH环境变量中。设置步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在环境变量的系统变量中找到PATH变量，双击进行修改。&lt;/li&gt;
+&lt;li&gt;在PATH变量的值的末尾添加“;JDK安装路径\bin”（例如：；C:\Program Files\Java\jdk1.x.x_xx\bin）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第五步测试环境变量配置是否成功&#34;&gt;第五步：测试环境变量配置是否成功&lt;/h2&gt;
+&lt;p&gt;成功配置完JDK环境变量后，可以测试是否配置成功：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开命令提示符，输入“java -version”命令，查看JDK版本信息是否正确。如果系统能够正确输出JDK版本信息，则表示JDK环境变量配置成功。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;到此为止，您已经成功配置了JDK环境变量，可以运行Java程序了。&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Xmlopt</title>
+      <link>/posts/xmlopt/</link>
+      <pubDate>Wed, 12 Apr 2023 02:33:25 +0000</pubDate>
+      
+      <guid>/posts/xmlopt/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>
