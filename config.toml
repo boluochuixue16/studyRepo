@@ -1,10 +1,12 @@
-baseurl = "/"
+baseurl = "/posts"
 title="Stack Engineer"
 languageCode = "zh-cn"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 paginate = 5
+# 谷歌统计
+googleAnalytics = 'UA-123-45'
 
 [params]
   foo = 'bar'
